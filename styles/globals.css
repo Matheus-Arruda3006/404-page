@@ -12,7 +12,7 @@ html {
   color: rgb(72, 103, 196);
 }
 
-.custom-image p{
+.custom-image a,p{
   font-size: 20px;
   color: rgb(161, 167, 172);
 }
