@@ -13,21 +13,11 @@ export default function Hero() {
         {/* Overlay */}
         <div className='flex flex-col ml-10'>
             <h1>EM BREVE UM NOVO SITE</h1>
-        <Image src={BgTech} alt='logo-tech' width={400} height={500}/>
-        <div className='flex flex-col items-center'>
-          <Link href='https://web.facebook.com/flockmarketingeventos/?_rdc=10&_rdr'>
-          <div>
-           <a><FaFacebookF/>Flock Marketing e Eventos</a>
-          </div>
-          </Link>
-          
-          <div>
-            <Link href="https://www.instagram.com/flockmkt/">
-            <a><FaInstagram/> @flockmkt</a></Link>
-          </div>
-         <div>
-          <p><TbBrandGmail/> comercial@flockmarketing.com.br</p>
-         </div>
+        <Image src={BgTech} alt='logo-tech' width={300} height={300}/>
+        <div>
+          <p>comercial@flockmarketing.com.br</p>
+          <p>@flockmkt</p>
+          <p>55 65 9 9223-5891</p>
         </div>
         </div>
     </div>
