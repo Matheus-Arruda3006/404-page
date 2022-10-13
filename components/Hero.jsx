@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {AiFillFacebook} from 'react-icons/ai';
 import { FaInstagram } from 'react-icons/fa';
-import {TbBrandGmail} from 'react-icons/tb';
+import { TbBrandGmail } from 'react-icons/tb';
+import { BsWhatsapp } from 'react-icons/bs';
 
 
 export default function Hero() {
@@ -23,9 +24,9 @@ export default function Hero() {
                 </Link>
             </div>
             <div>
-                <Link href="https://www.instagram.com/flockmkt/" >
+                <Link href="https://www.instagram.com/flockmkt/">
                   <div className='flex flex-start'>
-                    <FaInstagram className='custom-icon2'/><a>@flockmkt</a>
+                    <FaInstagram className='custom-icon2'/><a target="_blank" rel="noopener noreferrer">@flockmkt</a>
                   </div>
                 </Link>
             </div>
@@ -33,7 +34,14 @@ export default function Hero() {
                   <div className='flex flex-start'>
                     <TbBrandGmail className='custom-icon'/><p>comercial@flockmarketing.com.br</p>
                   </div>
+          </div>
+          <div>
+            <Link href='https://api.whatsapp.com/send?phone=5565993066069&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20tenho%20interesse%20em%20saber%20mais...'>
+            <div className='flex flex-start custom-whatsapp'>
+              <BsWhatsapp className='custom-icon3'/><a>(65) 99306-6069</a>
             </div>
+            </Link>  
+          </div>
         </div>
         </div>
     </div>
