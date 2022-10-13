@@ -16,3 +16,21 @@ html {
   font-size: 20px;
   color: rgb(161, 167, 172);
 }
+
+.custom-icon{
+  margin-top: 9px;
+  margin-right: 3px;
+  color: rgb(72, 103, 196);
+}
+
+.custom-icon1{
+  margin-top: 6px;
+  margin-right: 3px;
+  color: blue;
+}
+
+.custom-icon2{
+  margin-top: 9px;
+  margin-right: 3px;
+  color: rgb(232, 105, 8);
+}
