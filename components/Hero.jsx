@@ -6,15 +6,16 @@ import {AiFillFacebook} from 'react-icons/ai';
 import { FaInstagram } from 'react-icons/fa';
 import { TbBrandGmail } from 'react-icons/tb';
 import { BsWhatsapp } from 'react-icons/bs';
+import FundoRobo from '../img/fundorobo.jpg';
 
 
 export default function Hero() {
   return (
-    <div className='flex items-center justify-center mb-12 bg-fixed custom-image pt-20'>
+    <div className='flex items-center justify-center mb-12 bg-fixed custom-image pt-20 page-bg'>
         {/* Overlay */}
         <div className='flex flex-col ml-10'>
             <h1>EM BREVE UM NOVO SITE</h1>
-        <Image src={BgTech} alt='logo-tech' width={400} height={500}/>
+        <Image src={BgTech} alt='logo-tech' width={400} height={500} className='z-0'/>
         <div className='flex flex-col items-center'>
             <div>
                 <Link href="https://web.facebook.com/flockmarketingeventos/?_rdc=10&_rdr" >
