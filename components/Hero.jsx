@@ -37,9 +37,9 @@ export default function Hero() {
                   </div>
           </div>
           <div>
-            <Link href='https://api.whatsapp.com/send?phone=5565993066069&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20tenho%20interesse%20em%20saber%20mais...'>
+            <Link href='https://api.whatsapp.com/send?phone=5565992347745&text=Ol%C3%A1%2C%20vi%20o%20seu%20site%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20os%20planos.'>
             <div className='flex flex-start custom-whatsapp'>
-              <BsWhatsapp className='custom-icon3'/><a>(65) 99306-6069</a>
+              <BsWhatsapp className='custom-icon3'/><a>(65) 99234-7745</a>
             </div>
             </Link>  
           </div>
